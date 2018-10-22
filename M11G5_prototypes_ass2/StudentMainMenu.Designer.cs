@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentMainMenu));
             this.label15 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
             this.Modual1Complete = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.Mod1DateCompleted = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modual2Complete = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.Mod2DateCompleted = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
@@ -75,26 +75,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(445, 58);
             this.dataGridView1.TabIndex = 35;
-            // 
-            // Modual1Complete
-            // 
-            this.Modual1Complete.HeaderText = "Modual1Complete";
-            this.Modual1Complete.Name = "Modual1Complete";
-            // 
-            // Mod1DateCompleted
-            // 
-            this.Mod1DateCompleted.HeaderText = "Date Completed";
-            this.Mod1DateCompleted.Name = "Mod1DateCompleted";
-            // 
-            // Modual2Complete
-            // 
-            this.Modual2Complete.HeaderText = "Modual2Complete";
-            this.Modual2Complete.Name = "Modual2Complete";
-            // 
-            // Mod2DateCompleted
-            // 
-            this.Mod2DateCompleted.HeaderText = "Date Completed";
-            this.Mod2DateCompleted.Name = "Mod2DateCompleted";
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // label1
             // 
@@ -110,6 +91,26 @@
             this.label1.Text = resources.GetString("label1.Text");
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // Modual1Complete
+            // 
+            this.Modual1Complete.HeaderText = "Modual 1 Complete";
+            this.Modual1Complete.Name = "Modual1Complete";
+            // 
+            // Mod1DateCompleted
+            // 
+            this.Mod1DateCompleted.HeaderText = "Date Completed";
+            this.Mod1DateCompleted.Name = "Mod1DateCompleted";
+            // 
+            // Modual2Complete
+            // 
+            this.Modual2Complete.HeaderText = "Modual 2 Complete";
+            this.Modual2Complete.Name = "Modual2Complete";
+            // 
+            // Mod2DateCompleted
+            // 
+            this.Mod2DateCompleted.HeaderText = "Date Completed";
+            this.Mod2DateCompleted.Name = "Mod2DateCompleted";
             // 
             // pictureBox2
             // 
@@ -221,7 +222,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "StudentMainMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = " ";
+            this.Text = " Main Menu";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -236,14 +237,14 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Modual1Complete;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Mod1DateCompleted;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Modual2Complete;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Mod2DateCompleted;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn Modual1Complete;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mod1DateCompleted;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn Modual2Complete;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mod2DateCompleted;
     }
 }

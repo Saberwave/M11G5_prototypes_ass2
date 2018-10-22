@@ -43,11 +43,11 @@
             this.label15.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(36, 171);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(609, 66);
+            this.label15.Size = new System.Drawing.Size(613, 66);
             this.label15.TabIndex = 31;
-            this.label15.Text = "You have successfuly Enrolled In the course with [Business Name here]\r\n being Run" +
-    " by [Trainer name here] Between [Dates here]\r\nPlease ensure that you attend both" +
-    " Moduals that you applied for.";
+            this.label15.Text = "You have successfully Enrolled In the course with [Business Name here]\r\n being Ru" +
+    "n by [Trainer name here] Between [Dates here]\r\nPlease ensure that you attend bot" +
+    "h Modules that you applied for.";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
@@ -103,7 +103,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "EnrolmentSuccess";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "EnrolmentSuccess";
+            this.Text = "Enrolment Successful";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);

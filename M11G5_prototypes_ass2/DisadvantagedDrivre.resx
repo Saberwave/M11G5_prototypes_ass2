@@ -117,6 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label15.Text" xml:space="preserve">
+    <value>The NSW Government offers 1000 free places on the Safer Drivers Course each year to help
+young learner drivers from disadvantaged backgrounds and Aboriginal Communities. This 
+Allows people who are financially disadvantyaged the opportunity to benefit from the road
+safety outcomes of the Safer Driver Course.
+Please click this           to see if you're eligible for a free place.
+</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

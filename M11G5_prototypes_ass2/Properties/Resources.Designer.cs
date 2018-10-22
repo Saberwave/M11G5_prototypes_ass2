@@ -73,6 +73,16 @@ namespace M11G5_prototypes_ass2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Consent {
+            get {
+                object obj = ResourceManager.GetObject("Consent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap drawing {
             get {
                 object obj = ResourceManager.GetObject("drawing", resourceCulture);

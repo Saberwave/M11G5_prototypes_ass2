@@ -53,6 +53,18 @@
     <Compile Include="Admin Login.Designer.cs">
       <DependentUpon>Admin Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="concession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="concession.Designer.cs">
+      <DependentUpon>concession.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisadvantagedDrivre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisadvantagedDrivre.Designer.cs">
+      <DependentUpon>DisadvantagedDrivre.cs</DependentUpon>
+    </Compile>
     <Compile Include="EnrollModuals.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +147,12 @@
     </Compile>
     <EmbeddedResource Include="Admin Login.resx">
       <DependentUpon>Admin Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="concession.resx">
+      <DependentUpon>concession.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisadvantagedDrivre.resx">
+      <DependentUpon>DisadvantagedDrivre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EnrollModuals.resx">
       <DependentUpon>EnrollModuals.cs</DependentUpon>
@@ -233,6 +251,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SafeDriversCourse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Consent.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

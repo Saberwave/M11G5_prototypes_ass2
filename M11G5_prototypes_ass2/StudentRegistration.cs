@@ -170,7 +170,7 @@ namespace M11G5_prototypes_ass2
 
             try
             {
-                VisitLink();
+                VisitLink1();
             }
             catch (Exception ex)
             {
@@ -178,14 +178,14 @@ namespace M11G5_prototypes_ass2
             }
         }
 
-        private void VisitLink()
+        private void VisitLink1()
         {
             // Change the color of the link text by setting LinkVisited   
             // to true.  
-            linkLabel1.LinkVisited = true;
+            linkLabel2.LinkVisited = true;
             //Call the Process.Start method to open the default browser   
             //with a URL:  
-            System.Diagnostics.Process.Start("https://www.rms.nsw.gov.au/roads/licence/driver/learner/safer-drivers-course.html#Disadvantagedlearnerdrivers-freecourse");
+            System.Diagnostics.Process.Start("https://www.rms.nsw.gov.au/roads/licence/driver/learner/safer-drivers-course.html");
         }
 
         private void StudentRegistration_Load(object sender, EventArgs e)
@@ -198,6 +198,50 @@ namespace M11G5_prototypes_ass2
             Hide();
             StudentMainMenu StdMM = new StudentMainMenu();
             StdMM.Show();
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            try
+            {
+                VisitLink2();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Unable to open link that was clicked.");
+            }
+        }
+
+        private void VisitLink2()
+        {
+            // Change the color of the link text by setting LinkVisited   
+            // to true.  
+            linkLabel3.LinkVisited = true;
+            //Call the Process.Start method to open the default browser   
+            //with a URL:  
+            System.Diagnostics.Process.Start("https://www.rms.nsw.gov.au/about/about-this-website/online-privacy-policy.html");
+        }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            try
+            {
+                VisitLink3();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Unable to open link that was clicked.");
+            }
+        }
+
+        private void VisitLink3()
+        {
+            // Change the color of the link text by setting LinkVisited   
+            // to true.  
+            linkLabel4.LinkVisited = true;
+            //Call the Process.Start method to open the default browser   
+            //with a URL:  
+            System.Diagnostics.Process.Start("https://www.rms.nsw.gov.au/about/access-to-information/my-privacy.html");
         }
     }
 }

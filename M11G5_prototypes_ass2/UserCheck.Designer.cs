@@ -42,7 +42,7 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(246, 48);
             this.label15.TabIndex = 47;
-            this.label15.Text = "Are you Sure you want to\r\n enroll in these Moduals?\r\n";
+            this.label15.Text = "Are you Sure you want to\r\n enroll in these Module?\r\n";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
@@ -94,7 +94,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "UserCheck";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "UserCheck";
             this.ResumeLayout(false);
             this.PerformLayout();
 

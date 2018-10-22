@@ -41,5 +41,10 @@ namespace M11G5_prototypes_ass2
         {
 
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
