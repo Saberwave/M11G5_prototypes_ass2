@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace M11G5_prototypes_ass2
 {
-    public partial class TrainerLogin : Form
+    public partial class EnrolmentSuccess : Form
     {
-        public TrainerLogin()
+        public EnrolmentSuccess()
         {
             InitializeComponent();
         }
@@ -20,8 +20,13 @@ namespace M11G5_prototypes_ass2
         private void button1_Click(object sender, EventArgs e)
         {
             Hide();
-            Splash splash = new Splash();
-            splash.Show();
+            StudentMainMenu stdMM = new StudentMainMenu();
+            stdMM.Show();
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

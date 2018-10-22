@@ -10,18 +10,21 @@ using System.Windows.Forms;
 
 namespace M11G5_prototypes_ass2
 {
-    public partial class TrainerLogin : Form
+    public partial class StdUpdateInfo : Form
     {
-        public TrainerLogin()
+        public StdUpdateInfo()
         {
             InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Hide();
-            Splash splash = new Splash();
-            splash.Show();
         }
     }
 }

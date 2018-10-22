@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace M11G5_prototypes_ass2
 {
-    public partial class TrainerLogin : Form
+    public partial class UserCheck : Form
     {
-        public TrainerLogin()
+        public UserCheck()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Hide();
-            Splash splash = new Splash();
-            splash.Show();
         }
     }
 }

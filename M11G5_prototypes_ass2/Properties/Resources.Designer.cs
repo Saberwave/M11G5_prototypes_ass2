@@ -93,6 +93,16 @@ namespace M11G5_prototypes_ass2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Licence {
+            get {
+                object obj = ResourceManager.GetObject("Licence", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pressedbutton {
             get {
                 object obj = ResourceManager.GetObject("pressedbutton", resourceCulture);

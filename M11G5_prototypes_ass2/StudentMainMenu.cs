@@ -10,33 +10,31 @@ using System.Windows.Forms;
 
 namespace M11G5_prototypes_ass2
 {
-    public partial class StudentLogin : Form
+    public partial class StudentMainMenu : Form
     {
-        public StudentLogin()
+        public StudentMainMenu()
         {
             InitializeComponent();
         }
 
-
         private void button3_Click(object sender, EventArgs e)
         {
-            Hide();
-            StudentRegistration StdReg = new StudentRegistration();
-            StdReg.Show();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Hide();
-            Splash splash = new Splash();
-            splash.Show();
+            StdUpdateInfo stdupdate = new StdUpdateInfo();
+            stdupdate.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Hide();
-            StudentMainMenu StdMM = new StudentMainMenu();
-            StdMM.Show();
+            StudentLogin stdlogin = new StudentLogin();
+            stdlogin.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Hide();
+            StdViewCourses stdView = new StdViewCourses();
+            stdView.Show();
         }
     }
 }

@@ -10,18 +10,25 @@ using System.Windows.Forms;
 
 namespace M11G5_prototypes_ass2
 {
-    public partial class TrainerLogin : Form
+    public partial class StdViewCourses : Form
     {
-        public TrainerLogin()
+        public StdViewCourses()
         {
             InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Hide();
+            EnrolmentSuccess EnrlSucc = new EnrolmentSuccess();
+            EnrlSucc.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Hide();
-            Splash splash = new Splash();
-            splash.Show();
+            StudentMainMenu stdMM = new StudentMainMenu();
+            stdMM.Show();
         }
     }
 }

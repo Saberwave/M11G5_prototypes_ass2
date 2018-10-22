@@ -48,3 +48,12 @@ H:\2018 Semester 2\Foundations of information systems\M11G5 Prototypes Ass2\M11G
 H:\2018 Semester 2\Foundations of information systems\M11G5 Prototypes Ass2\M11G5_prototypes_ass2\M11G5_prototypes_ass2\obj\Debug\M11G5_prototypes_ass2.pdb
 H:\2018 Semester 2\Foundations of information systems\M11G5 Prototypes Ass2\M11G5_prototypes_ass2\M11G5_prototypes_ass2\obj\Debug\M11G5_prototypes_ass2.StudentLogin.resources
 H:\2018 Semester 2\Foundations of information systems\M11G5 Prototypes Ass2\M11G5_prototypes_ass2\M11G5_prototypes_ass2\obj\Debug\M11G5_prototypes_ass2.TrainerLogin.resources
+E:\2018 Semester 2\Foundations of information systems\M11G5 Prototypes Ass2\M11G5_prototypes_ass2\M11G5_prototypes_ass2\obj\Debug\M11G5_prototypes_ass2.Enrolments.resources
+E:\2018 Semester 2\Foundations of information systems\M11G5 Prototypes Ass2\M11G5_prototypes_ass2\M11G5_prototypes_ass2\obj\Debug\M11G5_prototypes_ass2.Licence_Example.resources
+E:\2018 Semester 2\Foundations of information systems\M11G5 Prototypes Ass2\M11G5_prototypes_ass2\M11G5_prototypes_ass2\obj\Debug\M11G5_prototypes_ass2.StudentLogin.resources
+E:\2018 Semester 2\Foundations of information systems\M11G5 Prototypes Ass2\M11G5_prototypes_ass2\M11G5_prototypes_ass2\obj\Debug\M11G5_prototypes_ass2.StudentRegistration.resources
+E:\2018 Semester 2\Foundations of information systems\M11G5 Prototypes Ass2\M11G5_prototypes_ass2\M11G5_prototypes_ass2\obj\Debug\M11G5_prototypes_ass2.TrainerLogin.resources
+E:\2018 Semester 2\Foundations of information systems\M11G5 Prototypes Ass2\M11G5_prototypes_ass2\M11G5_prototypes_ass2\obj\Debug\M11G5_prototypes_ass2.StudentMainMenu.resources
+E:\2018 Semester 2\Foundations of information systems\M11G5 Prototypes Ass2\M11G5_prototypes_ass2\M11G5_prototypes_ass2\obj\Debug\M11G5_prototypes_ass2.StdUpdateInfo.resources
+E:\2018 Semester 2\Foundations of information systems\M11G5 Prototypes Ass2\M11G5_prototypes_ass2\M11G5_prototypes_ass2\obj\Debug\M11G5_prototypes_ass2.EnrolmentSuccess.resources
+E:\2018 Semester 2\Foundations of information systems\M11G5 Prototypes Ass2\M11G5_prototypes_ass2\M11G5_prototypes_ass2\obj\Debug\M11G5_prototypes_ass2.StdViewCourses.resources
