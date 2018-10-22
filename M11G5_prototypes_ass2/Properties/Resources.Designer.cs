@@ -103,6 +103,26 @@ namespace M11G5_prototypes_ass2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Menu_button {
+            get {
+                object obj = ResourceManager.GetObject("Menu button", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Menu_button1 {
+            get {
+                object obj = ResourceManager.GetObject("Menu button1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pressedbutton {
             get {
                 object obj = ResourceManager.GetObject("pressedbutton", resourceCulture);
@@ -116,6 +136,16 @@ namespace M11G5_prototypes_ass2.Properties {
         internal static System.Drawing.Bitmap rms_logo_195 {
             get {
                 object obj = ResourceManager.GetObject("rms_logo_195", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SafeDriversCourse {
+            get {
+                object obj = ResourceManager.GetObject("SafeDriversCourse", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

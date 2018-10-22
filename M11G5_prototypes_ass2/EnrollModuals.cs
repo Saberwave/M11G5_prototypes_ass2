@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace M11G5_prototypes_ass2
 {
-    public partial class UserCheck : Form
+    public partial class EnrollModuals : Form
     {
-        public UserCheck()
+        public EnrollModuals()
         {
             InitializeComponent();
-        }
-
-        private void label15_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

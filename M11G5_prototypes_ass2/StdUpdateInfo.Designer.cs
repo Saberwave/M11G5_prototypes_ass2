@@ -254,6 +254,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox6);
             this.Name = "StdUpdateInfo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StdUpdateInfo";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

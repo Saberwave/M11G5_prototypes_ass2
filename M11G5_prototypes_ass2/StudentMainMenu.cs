@@ -36,5 +36,10 @@ namespace M11G5_prototypes_ass2
             StdViewCourses stdView = new StdViewCourses();
             stdView.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
