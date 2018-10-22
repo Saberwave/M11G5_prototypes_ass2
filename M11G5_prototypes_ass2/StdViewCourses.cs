@@ -20,8 +20,8 @@ namespace M11G5_prototypes_ass2
         private void button2_Click(object sender, EventArgs e)
         {
             Hide();
-            EnrolmentSuccess EnrlSucc = new EnrolmentSuccess();
-            EnrlSucc.Show();
+            EnrollModuals EnrlMod = new EnrollModuals();
+            EnrlMod.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -28,13 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EnrollModuals));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Address = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Trainer = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Time = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Modual1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.Modual2 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.Address = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Trainer = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ModualType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label15 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -47,27 +50,16 @@
             this.dataGridView1.AllowUserToOrderColumns = true;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Address,
-            this.Trainer,
             this.Date,
             this.Time,
-            this.Modual1,
-            this.Modual2});
-            this.dataGridView1.Location = new System.Drawing.Point(21, 226);
+            this.Address,
+            this.Trainer,
+            this.ModualType});
+            this.dataGridView1.Location = new System.Drawing.Point(75, 237);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(644, 45);
+            this.dataGridView1.Size = new System.Drawing.Size(545, 45);
             this.dataGridView1.TabIndex = 2;
-            // 
-            // Address
-            // 
-            this.Address.HeaderText = "Address";
-            this.Address.Name = "Address";
-            // 
-            // Trainer
-            // 
-            this.Trainer.HeaderText = "Trainers Name";
-            this.Trainer.Name = "Trainer";
             // 
             // Date
             // 
@@ -79,25 +71,79 @@
             this.Time.HeaderText = "Time";
             this.Time.Name = "Time";
             // 
-            // Modual1
+            // Address
             // 
-            this.Modual1.HeaderText = "Modual 1";
-            this.Modual1.Name = "Modual1";
-            this.Modual1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Modual1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.Address.HeaderText = "Address";
+            this.Address.Name = "Address";
             // 
-            // Modual2
+            // Trainer
             // 
-            this.Modual2.HeaderText = "Modual 2";
-            this.Modual2.Name = "Modual2";
+            this.Trainer.HeaderText = "Trainers Name";
+            this.Trainer.Name = "Trainer";
+            // 
+            // ModualType
+            // 
+            this.ModualType.HeaderText = "Modual Type";
+            this.ModualType.Name = "ModualType";
+            this.ModualType.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label15.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label15.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label15.Location = new System.Drawing.Point(121, 170);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(453, 54);
+            this.label15.TabIndex = 50;
+            this.label15.Text = "Before choosing when you will attend a modual, Make sure that\r\nyou are able to at" +
+    "tend the date and don\'t have any conflicting \r\nschedules.";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.BackgroundImage = global::M11G5_prototypes_ass2.Properties.Resources.button;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button2.Location = new System.Drawing.Point(204, 312);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(117, 56);
+            this.button2.TabIndex = 51;
+            this.button2.Text = "Submit";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.BackgroundImage = global::M11G5_prototypes_ass2.Properties.Resources.button;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.Location = new System.Drawing.Point(363, 312);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(117, 56);
+            this.button1.TabIndex = 52;
+            this.button1.Text = "Back";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::M11G5_prototypes_ass2.Properties.Resources.SafeDriversCourse;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox2.Location = new System.Drawing.Point(2, 0);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(173, 157);
-            this.pictureBox2.TabIndex = 49;
+            this.pictureBox2.TabIndex = 54;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox3
@@ -106,11 +152,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox3.Image = global::M11G5_prototypes_ass2.Properties.Resources.rms_logo_195;
-            this.pictureBox3.Location = new System.Drawing.Point(171, 0);
+            this.pictureBox3.Location = new System.Drawing.Point(170, 0);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(513, 157);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 48;
+            this.pictureBox3.TabIndex = 53;
             this.pictureBox3.TabStop = false;
             // 
             // EnrollModuals
@@ -118,28 +164,36 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(686, 450);
+            this.ClientSize = new System.Drawing.Size(686, 384);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.label15);
             this.Controls.Add(this.dataGridView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "EnrollModuals";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EnrollModuals";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Address;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Trainer;
         private System.Windows.Forms.DataGridViewTextBoxColumn Date;
         private System.Windows.Forms.DataGridViewTextBoxColumn Time;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Modual1;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Modual2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Address;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Trainer;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ModualType;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
     }

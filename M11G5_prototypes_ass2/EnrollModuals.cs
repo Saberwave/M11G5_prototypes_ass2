@@ -16,5 +16,12 @@ namespace M11G5_prototypes_ass2
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Hide();
+            UserCheck usrChk = new UserCheck();
+            usrChk.Show();
+        }
     }
 }

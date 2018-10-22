@@ -79,3 +79,4 @@ C:\Users\Tom\Desktop\M11G5_prototypes_ass2\M11G5_prototypes_ass2\M11G5_prototype
 C:\Users\Tom\Desktop\M11G5_prototypes_ass2\M11G5_prototypes_ass2\M11G5_prototypes_ass2\obj\Debug\M11G5_prototypes_ass2.csproj.CoreCompileInputs.cache
 C:\Users\Tom\Desktop\M11G5_prototypes_ass2\M11G5_prototypes_ass2\M11G5_prototypes_ass2\obj\Debug\M11G5_prototypes_ass2.exe
 C:\Users\Tom\Desktop\M11G5_prototypes_ass2\M11G5_prototypes_ass2\M11G5_prototypes_ass2\obj\Debug\M11G5_prototypes_ass2.pdb
+C:\Users\Tom\Desktop\M11G5_prototypes_ass2\M11G5_prototypes_ass2\M11G5_prototypes_ass2\obj\Debug\M11G5_prototypes_ass2.EnrollModuals.resources
