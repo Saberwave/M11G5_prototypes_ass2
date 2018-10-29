@@ -47,17 +47,131 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AACSucc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AACSucc.Designer.cs">
+      <DependentUpon>AACSucc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AATCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AATCheck.Designer.cs">
+      <DependentUpon>AATCheck.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Admin Login.Designer.cs">
       <DependentUpon>Admin Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminAddCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAddCourse.Designer.cs">
+      <DependentUpon>AdminAddCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAddEnrolment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAddEnrolment.Designer.cs">
+      <DependentUpon>AdminAddEnrolment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAddStudent.Designer.cs">
+      <DependentUpon>AdminAddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAddTrainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAddTrainer.Designer.cs">
+      <DependentUpon>AdminAddTrainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminModStudentDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminModStudentDetails.Designer.cs">
+      <DependentUpon>AdminModStudentDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminModTrainerDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminModTrainerDetails.Designer.cs">
+      <DependentUpon>AdminModTrainerDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRemoveStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRemoveStudent.Designer.cs">
+      <DependentUpon>AdminRemoveStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRemoveTrainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRemoveTrainer.Designer.cs">
+      <DependentUpon>AdminRemoveTrainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUserDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUserDetails.Designer.cs">
+      <DependentUpon>AdminUserDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminVewEnrollments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminVewEnrollments.Designer.cs">
+      <DependentUpon>AdminVewEnrollments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewCourses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewCourses.Designer.cs">
+      <DependentUpon>AdminViewCourses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewResults.Designer.cs">
+      <DependentUpon>AdminViewResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ARSCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ARSCheck.Designer.cs">
+      <DependentUpon>ARSCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ARTCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ARTCheck.Designer.cs">
+      <DependentUpon>ARTCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ASESucc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ASESucc.Designer.cs">
+      <DependentUpon>ASESucc.cs</DependentUpon>
+    </Compile>
     <Compile Include="concession.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="concession.Designer.cs">
       <DependentUpon>concession.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRSucc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRSucc.Designer.cs">
+      <DependentUpon>CRSucc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetailsSucc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailsSucc.Designer.cs">
+      <DependentUpon>DetailsSucc.cs</DependentUpon>
     </Compile>
     <Compile Include="DisadvantagedDrivre.cs">
       <SubType>Form</SubType>
@@ -71,12 +185,6 @@
     <Compile Include="EnrollModuals.Designer.cs">
       <DependentUpon>EnrollModuals.cs</DependentUpon>
     </Compile>
-    <Compile Include="Enrolments.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Enrolments.Designer.cs">
-      <DependentUpon>Enrolments.cs</DependentUpon>
-    </Compile>
     <Compile Include="EnrolmentSuccess.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,11 +197,23 @@
     <Compile Include="Licence Example.Designer.cs">
       <DependentUpon>Licence Example.cs</DependentUpon>
     </Compile>
+    <Compile Include="SACheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SACheck.Designer.cs">
+      <DependentUpon>SACheck.cs</DependentUpon>
+    </Compile>
     <Compile Include="Splash.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Splash.Designer.cs">
       <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SRemoved.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SRemoved.Designer.cs">
+      <DependentUpon>SRemoved.cs</DependentUpon>
     </Compile>
     <Compile Include="StdUpdateInfo.cs">
       <SubType>Form</SubType>
@@ -125,19 +245,79 @@
     <Compile Include="StudentRegistration.Designer.cs">
       <DependentUpon>StudentRegistration.cs</DependentUpon>
     </Compile>
-    <Compile Include="TheMainMenu.cs">
+    <Compile Include="SuccApp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TheMainMenu.Designer.cs">
-      <DependentUpon>TheMainMenu.cs</DependentUpon>
+    <Compile Include="SuccApp.Designer.cs">
+      <DependentUpon>SuccApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TCheck.Designer.cs">
+      <DependentUpon>TCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TDConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TDConfirm.Designer.cs">
+      <DependentUpon>TDConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminMainMenu.Designer.cs">
+      <DependentUpon>AdminMainMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TrainerCourseEnrollments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainerCourseEnrollments.Designer.cs">
+      <DependentUpon>TrainerCourseEnrollments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainerCourseResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainerCourseResults.Designer.cs">
+      <DependentUpon>TrainerCourseResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainerCourses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainerCourses.Designer.cs">
+      <DependentUpon>TrainerCourses.cs</DependentUpon>
+    </Compile>
     <Compile Include="TrainerLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TrainerLogin.Designer.cs">
       <DependentUpon>TrainerLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainerMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainerMainMenu.Designer.cs">
+      <DependentUpon>TrainerMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainerModDeets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainerModDeets.Designer.cs">
+      <DependentUpon>TrainerModDeets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainerUpdateResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainerUpdateResults.Designer.cs">
+      <DependentUpon>TrainerUpdateResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TRemoved.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TRemoved.Designer.cs">
+      <DependentUpon>TRemoved.cs</DependentUpon>
     </Compile>
     <Compile Include="UserCheck.cs">
       <SubType>Form</SubType>
@@ -145,11 +325,68 @@
     <Compile Include="UserCheck.Designer.cs">
       <DependentUpon>UserCheck.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AACSucc.resx">
+      <DependentUpon>AACSucc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AATCheck.resx">
+      <DependentUpon>AATCheck.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin Login.resx">
       <DependentUpon>Admin Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AdminAddCourse.resx">
+      <DependentUpon>AdminAddCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAddEnrolment.resx">
+      <DependentUpon>AdminAddEnrolment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAddStudent.resx">
+      <DependentUpon>AdminAddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAddTrainer.resx">
+      <DependentUpon>AdminAddTrainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminModStudentDetails.resx">
+      <DependentUpon>AdminModStudentDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminModTrainerDetails.resx">
+      <DependentUpon>AdminModTrainerDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminRemoveStudent.resx">
+      <DependentUpon>AdminRemoveStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminRemoveTrainer.resx">
+      <DependentUpon>AdminRemoveTrainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUserDetails.resx">
+      <DependentUpon>AdminUserDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminVewEnrollments.resx">
+      <DependentUpon>AdminVewEnrollments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewCourses.resx">
+      <DependentUpon>AdminViewCourses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewResults.resx">
+      <DependentUpon>AdminViewResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ARSCheck.resx">
+      <DependentUpon>ARSCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ARTCheck.resx">
+      <DependentUpon>ARTCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ASESucc.resx">
+      <DependentUpon>ASESucc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="concession.resx">
       <DependentUpon>concession.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRSucc.resx">
+      <DependentUpon>CRSucc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailsSucc.resx">
+      <DependentUpon>DetailsSucc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DisadvantagedDrivre.resx">
       <DependentUpon>DisadvantagedDrivre.cs</DependentUpon>
@@ -157,17 +394,20 @@
     <EmbeddedResource Include="EnrollModuals.resx">
       <DependentUpon>EnrollModuals.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Enrolments.resx">
-      <DependentUpon>Enrolments.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="EnrolmentSuccess.resx">
       <DependentUpon>EnrolmentSuccess.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Licence Example.resx">
       <DependentUpon>Licence Example.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SACheck.resx">
+      <DependentUpon>SACheck.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Splash.resx">
       <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SRemoved.resx">
+      <DependentUpon>SRemoved.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StdUpdateInfo.resx">
       <DependentUpon>StdUpdateInfo.cs</DependentUpon>
@@ -184,8 +424,17 @@
     <EmbeddedResource Include="StudentRegistration.resx">
       <DependentUpon>StudentRegistration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TheMainMenu.resx">
-      <DependentUpon>TheMainMenu.cs</DependentUpon>
+    <EmbeddedResource Include="SuccApp.resx">
+      <DependentUpon>SuccApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TCheck.resx">
+      <DependentUpon>TCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TDConfirm.resx">
+      <DependentUpon>TDConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminMainMenu.resx">
+      <DependentUpon>AdminMainMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -197,8 +446,29 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TrainerCourseEnrollments.resx">
+      <DependentUpon>TrainerCourseEnrollments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainerCourseResults.resx">
+      <DependentUpon>TrainerCourseResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainerCourses.resx">
+      <DependentUpon>TrainerCourses.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TrainerLogin.resx">
       <DependentUpon>TrainerLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainerMainMenu.resx">
+      <DependentUpon>TrainerMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainerModDeets.resx">
+      <DependentUpon>TrainerModDeets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainerUpdateResults.resx">
+      <DependentUpon>TrainerUpdateResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TRemoved.resx">
+      <DependentUpon>TRemoved.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserCheck.resx">
       <DependentUpon>UserCheck.cs</DependentUpon>

@@ -23,5 +23,12 @@ namespace M11G5_prototypes_ass2
             UserCheck usrChk = new UserCheck();
             usrChk.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Hide();
+            StdViewCourses SVC = new StdViewCourses();
+            SVC.Show();
+        }
     }
 }

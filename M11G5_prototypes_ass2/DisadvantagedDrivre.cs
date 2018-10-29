@@ -69,5 +69,19 @@ namespace M11G5_prototypes_ass2
             concession cons = new concession();
             cons.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Hide();
+            StudentMainMenu StdMM = new StudentMainMenu();
+            StdMM.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Hide();
+            SuccApp SA = new SuccApp();
+            SA.Show();
+        }
     }
 }

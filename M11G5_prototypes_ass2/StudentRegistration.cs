@@ -243,5 +243,19 @@ namespace M11G5_prototypes_ass2
             //with a URL:  
             System.Diagnostics.Process.Start("https://www.rms.nsw.gov.au/about/access-to-information/my-privacy.html");
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Hide();
+            StudentMainMenu StdMM = new StudentMainMenu();
+            StdMM.Show();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Hide();
+            StudentLogin StdLog = new StudentLogin();
+            StdLog.Show();
+        }
     }
 }

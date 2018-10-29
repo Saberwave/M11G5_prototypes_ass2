@@ -23,5 +23,12 @@ namespace M11G5_prototypes_ass2
             Splash splash = new Splash();
             splash.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Hide();
+            TrainerMainMenu TMM = new TrainerMainMenu();
+            TMM.Show();
+        }
     }
 }
